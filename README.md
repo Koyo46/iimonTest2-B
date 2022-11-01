@@ -9,4 +9,6 @@ CREATE TABLE user ( id SERIAL PRIMARY KEY, user_name TEXT, password TEXT );
 
 CREATE TABLE post ( id SERIAL PRIMARY KEY, user_name TEXT, text TEXT );
 
-③
+③ターミナルで`iimonTest2-B/build/libs/IimonTest2-Bcomplete1-0.0.1-SNAPSHOT.jar`を実行する。
+
+④`http://localhost:8080/post`にアクセスする。
